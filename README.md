@@ -1,5 +1,3 @@
-
-
 # Fashion Recommendation System
 
 ## Project Description
@@ -108,3 +106,7 @@ This script contains the main logic for the recommendation system. It defines a 
 ## Conclusion
 
 This fashion recommendation system provides a simple yet effective way to find similar fashion products based on an uploaded image. By leveraging a pre-trained VGG16 model and a dataset of fashion products, the system can help users discover new fashion items that match their preferences.
+
+## Sample of webpage
+<img src="sample1.JPG">
+<img src="sample 2.JPG">
