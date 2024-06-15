@@ -1,3 +1,5 @@
+
+
 # Fashion Recommendation System
 
 ## Project Description
@@ -6,7 +8,18 @@ This project is a fashion recommendation system designed to suggest similar fash
 
 ## Dataset
 
-The dataset used in this project contains information about various fashion products, including their images and style details. The dataset is provided in a CSV file (`styles.csv`) with the following columns:
+The dataset used in this project is the "Fashion Product Images (Small)" dataset from Kaggle. It contains information about various fashion products, including their images and style details.
+
+### Downloading the Dataset
+
+You can download the dataset from Kaggle using the following link: [Fashion Product Images (Small)](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small)
+
+To download the dataset, follow these steps:
+
+1. Go to the [Kaggle dataset page](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small).
+2. Click on the "Download" button to download the dataset files.
+
+The dataset contains a CSV file (`styles.csv`) with the following columns:
 - `id`: Unique identifier for each product
 - `gender`: Gender category of the product (e.g., Men, Women)
 - `masterCategory`: Main category of the product (e.g., Apparel)
@@ -95,6 +108,3 @@ This script contains the main logic for the recommendation system. It defines a 
 ## Conclusion
 
 This fashion recommendation system provides a simple yet effective way to find similar fashion products based on an uploaded image. By leveraging a pre-trained VGG16 model and a dataset of fashion products, the system can help users discover new fashion items that match their preferences.
-
----
-
